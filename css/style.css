@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* ----- サイト全体 ----- */
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/background_image01.jpeg);
+    background-size: cover;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ----- スタート画面 ----- */
+
+.start{
+    width: 75%;
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}   
+
+.start-image{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+/* ----- じゃんけん ----- */
+
+.wrapper{
+    display: none;
+    width: 1200px;
+    max-width: 100%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+.title-wrapper{
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.title-image{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+/* ----- 結果 ----- */
+
+.result-wrapper{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.result1{
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: center;
+}
+
+.result2{
+    display: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.result3{
+    display: none;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    cursor : pointer;
+}
+
+
+/* ----- ボタン ----- */
+
+.btn-wrapper{
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.btn-list{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    width: 120px;
+    margin: 0 10px;
+    cursor : pointer;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+  }
